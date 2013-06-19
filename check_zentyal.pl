@@ -44,6 +44,9 @@ sub main
          print "Stopped: " . $stopped_list . "|" . "Running: " . $running_list . "Running but unmanaged: " . $running_unmanaged_list . "Disabled: " . $disabled_list;
          exit 2;
     }
+    else {
+        print "ok" . "|" . "Running: " . $running_list . "Running but unmanaged: " . $running_unmanaged_list . "Disabled: " . $disabled_list;
+    }
 
 }
 
